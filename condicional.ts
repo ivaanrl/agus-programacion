@@ -1,4 +1,4 @@
-const readline = require("readline-sync");
+import readline from "readline-sync"
 
 const edad: number = parseInt(readline.question("cuantos anos tiene?"));
 
